@@ -1,0 +1,103 @@
+Quartus II Archive log --	E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/hdlogo_v1_0_0.qarlog
+
+Archive:	E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/hdlogo_v1_0_0.qar
+Date:		Fri Jun 28 18:07:31 2013
+Quartus II		9.1 Build 222 10/21/2009 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/A_DELAY.cmp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/A_DELAY.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/A_DELAY.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/A_DELAY_bb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Audio.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Audio_Out.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/CheckMCU.stp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/CheckSDIKeyVideo.stp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Convert20b210b.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF.bsf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_advisor.ipa
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_auk_ddr_hp_controller_wrapper.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_auk_ddr_hp_controller_wrapper.vo
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_bb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_controller_phy.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_ex_lfsr8.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_example_driver.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_example_top.sdc
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_example_top.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy.bsf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_pll.bsf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_pll.cmp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_pll.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_pll.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_pll_bb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_seq.vhd
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_seq_wrapper.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_alt_mem_phy_seq_wrapper.vo
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_autodetectedpins.tcl
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_bb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_ddr_pins.tcl
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_ddr_timing.sdc
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_phy_report_timing.tcl
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/DDR2_IF_pin_assignments.tcl
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_1X4.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_23x4.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_BUFF.cmp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_BUFF.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_RMS.cmp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_RMS.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_RMS.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/FIFO_RMS_bb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/GLBCLK_2X1.bsf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/GLBCLK_2X1.cmp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/GLBCLK_2X1.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/GLBCLK_2X1.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/GLBCLK_2X1_bb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Key_Math.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/LineSync.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/LineSync1.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/MUX_96X24.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/RMS.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/ReadMe.txt
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Top_HD_LogoInsert.out.sdc
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Top_HD_LogoInsert.qpf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Top_HD_LogoInsert.qsf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Top_HD_LogoInsert.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/alt_mem_phy_defines.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/altmemphy-library/auk_ddr_hp_controller.ocp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/anpha.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/audio_mixer.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/auk_ddr_hp_controller.ocp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/auk_ddr_hp_controller.vhd
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/clk_mux.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/clk_mux.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/clk_mux_bb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/ddr2_high_performance_controller-library/auk_ddr_hp_controller.ocp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/gain.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/hdlogo_v1_0_0.qsf
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/kiemtra.stp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/kiemtracpu.stp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/logo_key.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/lpm_add_sub0.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/lpm_add_sub1.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/lpm_mult0.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/myaudio.stp
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/new_rms.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/peak_detect.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/rms_detect.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/testbench/DDR2_IF_example_top_tb.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/testbench/DDR2_IF_full_mem_model.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/testbench/DDR2_IF_mem_model.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/testclk.qip
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/testclk.v
+E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/testclk_bb.v
+c:/altera/91/quartus/bin/assignment_defaults.qdf
+	======= Total: 92 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at Top_HD_LogoInsert.v(99): object "Pclk_KeyVideo" differs only in case from object "pclk_keyvideo" in the same scope
+Info (10281): Verilog HDL Declaration information at Top_HD_LogoInsert.v(104): object "Pclk_KeyAnpha" differs only in case from object "pclk_keyanpha" in the same scope
+Warning (10273): Verilog HDL warning at logo_key.v(264): extended using "x" or "z"
+Warning (10268): Verilog HDL information at logo_key.v(531): always construct contains both blocking and non-blocking assignments

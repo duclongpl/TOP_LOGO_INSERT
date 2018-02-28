@@ -1,0 +1,21 @@
+
+
+E:/PROJECT/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/ddr2_if.v
+
+Jan 22 06PM:14:37>: Megafunction DDR2 High Performance Controller v9.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/PROJECT/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/ddr2_if.v
+
+Jan 22 06PM:27:10>: Megafunction DDR2 High Performance Controller v9.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/PROJECT/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/ddr2_if.v
+
+Jan 22 06PM:27:11>: Megafunction DDR2 High Performance Controller v9.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/PROJECT/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/ddr2_if.v
+
+Jan 26 04PM:06:37>: Megafunction DDR2 High Performance Controller v9.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

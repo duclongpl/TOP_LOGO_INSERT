@@ -1,0 +1,159 @@
+/**********************************************************
+* Module: LineSync
+* Author: Vo Duy Hien
+* Purpose: Alignment horizonal data for incoming video with
+* 	reference input
+* Usage:
+*
+***********************************************************/
+
+module LineSync (
+		clk,				// video clock input for incoming video clock		
+		hblanking_data,		// horizonal blanking video in
+		data_in_BKGD,			// video data incoming
+		number_active,		// total number of active pixel per line
+		clk_ref,			// clock reference for output clock
+		data_out,						
+		HVF_ref_in,
+		HVF_ref_out,
+		test_count,
+		is_ok,
+		number_delay);		// number of delay pixel
+		
+		
+		input			clk;
+		input			clk_ref;
+		input			hblanking_data;
+		input	[19:0]	data_in_BKGD;				
+		input	[2:0]	HVF_ref_in;
+		
+		
+		output	[11:0]	number_active;
+		output	[19:0]	data_out;
+		output	[11:0]	number_delay;			
+		output	[2:0]	HVF_ref_out;
+		output			test_count;
+		output	is_ok;
+		
+
+
+(* ramstyle	=	"M9K" *)reg		[19:0]		buffer	[1920:0];	// buffer store all active video for 1 line
+
+wire 	[19:0]	data_in;
+//MAX_PIXEL	= 2640;
+
+assign number_active=real_active;
+reg		[11:0]	write_pointer;		// this is write data pointer
+reg		[11:0]	read_pointer;
+
+reg 		by_pass_fifo;
+reg			old_hblanking_ref;
+reg			old_hblanking_data;
+reg		[11:0]  real_active;
+reg		[19:0]	buffer_data;
+reg		[19:0]	buffer_data_pixel;
+
+reg				hblanking_ref_delay;
+reg 		vsync_out;
+reg			fsync_out;
+reg 		test_count;
+reg 	[19:0] delay_video_data;
+reg	[19:0]	data_out_buffer;
+reg	[19:0]	data_out_buffer1;
+
+reg	is_ok;
+wire	[19:0] my_data_out;
+assign my_data_out = (by_pass_fifo==1'b1) ? delay_video_data : buffer_data;
+assign data_out = data_out_buffer;//(by_pass_fifo==1'b1) ? delay_video_data : buffer_data;
+always @(posedge clk_ref) begin	
+	data_out_buffer <= my_data_out;
+	//data_out_buffer <=data_out_buffer1;
+end	
+wire [1:0] rdusedw_BKGD_sig;
+
+wire [20:0]	temp_data_in;
+wire [20:0] temp_data_out;
+reg 	[2:0]	HVF_ref_out;
+assign temp_data_in[19:0] = data_in_BKGD[19:0];
+assign temp_data_in[20]=hblanking_data;
+
+FIFO_23x4 FIFO_23x4_BGKD(.data (temp_data_in[20:0]),.rdclk (clk_ref),.rdreq (rdusedw_BKGD_sig[1]),.wrclk (clk),.wrreq (1'b1),.q (temp_data_out[20:0]),.rdusedw (rdusedw_BKGD_sig));
+assign data_in=temp_data_out[19:0];
+assign hblanking_data_sync=temp_data_out[20];
+
+wire hblanking_data_sync;
+
+reg [11:0] my_counter;
+
+
+always @(posedge clk_ref) begin
+		if(my_counter>960)
+			test_count<=1;
+		else
+			test_count<=0;
+end	
+always @(posedge clk_ref) begin
+		if((HVF_ref_in[0]==1'b1))
+			my_counter<=0;
+		else
+			my_counter<=my_counter+1;
+			
+end	
+reg		[11:0]	write_pixel_counter;
+
+reg	old_clk_hsync;
+always @(posedge clk) begin
+	old_clk_hsync <= hblanking_data;
+	if((old_clk_hsync == 1'b0) && (hblanking_data==1'b1)) begin
+		write_pixel_counter<=1;
+		if(write_pixel_counter==2640)
+			is_ok<=1'b1;		
+	end else
+		if(write_pixel_counter <2640+2)
+			write_pixel_counter <=write_pixel_counter+1;
+		else
+			is_ok<=1'b0;
+end
+
+/* write data to buffer like a FIFO */
+always @(posedge clk_ref) begin		
+		if((hblanking_data_sync==1'b1)) begin	// if incoming data is inactive video			
+			write_pointer<=0;					
+			if(old_hblanking_data==1'b0)
+				real_active<=write_pointer;
+			end
+		else
+			begin
+				write_pointer<=write_pointer+1;
+				buffer[write_pointer]<=data_in;
+			end
+		old_hblanking_data<=hblanking_data_sync;
+		
+	end	
+
+assign my_data=0;
+always @(posedge clk_ref) begin
+		//buffer_data<=buffer_data_pixel;
+		buffer_data <=buffer[read_pointer]; 		
+		HVF_ref_out[2:0]<=HVF_ref_in[2:0];
+		delay_video_data<=data_in;
+	end
+
+always @(posedge clk_ref) begin		
+		if((HVF_ref_in[0]==1'b0)) begin								
+			if(read_pointer!=(real_active-1))
+				read_pointer<=read_pointer+1;
+			else
+				read_pointer<=0;				
+			if(old_hblanking_ref==1'b1)	begin							
+				if(read_pointer!=0)
+					read_pointer<=1;								
+				if(write_pointer==0)	//
+					by_pass_fifo<=1'b1;	
+				else
+					by_pass_fifo<=1'b0;
+			end
+		end
+		old_hblanking_ref<=HVF_ref_in[0];
+	end
+endmodule	

@@ -1,0 +1,10 @@
+I/O Assignment Analysis Status : Successful - Fri Jun 28 17:54:30 2013
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : Top_HD_LogoInsert
+Top-level Entity Name : Top_HD_LogoInsert
+Family : Cyclone III
+Device : EP3C40F484C7
+Timing Models : Final
+Total pins : 253 / 332 ( 76 % )
+Total virtual pins : 0
+Total PLLs : 1 / 4 ( 25 % )

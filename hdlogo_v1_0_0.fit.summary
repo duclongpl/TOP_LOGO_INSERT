@@ -1,0 +1,16 @@
+Fitter Status : Failed - Mon Jan 26 16:03:49 2015
+Quartus II 64-Bit Version : 11.1 Build 173 11/01/2011 SJ Full Version
+Revision Name : hdlogo_v1_0_0
+Top-level Entity Name : Top_HD_LogoInsert
+Family : Cyclone III
+Device : EP3C40F484C7
+Timing Models : Final
+Total logic elements : 14,673
+    Total combinational functions : 10,675
+    Dedicated logic registers : 6,951
+Total registers : 7085
+Total pins : 257
+Total virtual pins : 0
+Total memory bits : 632,232
+Embedded Multiplier 9-bit elements : 68
+Total PLLs : 1

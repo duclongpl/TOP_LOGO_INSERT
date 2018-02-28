@@ -1,0 +1,558 @@
+ -- Copyright (C) 1991-2009 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		2.5V
+ --					Bank 2:		2.5V
+ --					Bank 3:		1.8V
+ --					Bank 4:		1.8V
+ --					Bank 5:		1.8V
+ --					Bank 6:		1.8V
+ --					Bank 7:		2.5V
+ --					Bank 8:		2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   For transceiver I/O banks (Bank 13, 14, 15, 16 and 17),
+ --           	    connect each pin marked GND* either individually through a 10k Ohm resistor
+ --           	    to GND or tie all pins together and connect through a single 10k Ohm resistor
+ --           	    to GND.
+ --           	    For non-transceiver I/O banks, connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
+CHIP  "hdlogo_v1_0_0"  ASSIGNED TO AN: EP3C40F484C7
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND                          : A1        : gnd    :                   :         :           :                
+VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
+Rx_Data[2]                   : A3        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[4]                   : A4        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[6]                   : A5        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[8]                   : A6        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[11]                  : A7        : input  : 2.5 V             :         : 8         : Y              
+Rx_Audio[2]                  : A8        : input  : 2.5 V             :         : 8         : Y              
+real_active[11]              : A9        : output : 2.5 V             :         : 8         : N              
+Rx_HVF[2]                    : A10       : input  : 2.5 V             :         : 8         : Y              
+clock_source                 : A11       : input  : 2.5 V             :         : 8         : Y              
+Pclk_Rx                      : A12       : input  : 2.5 V             :         : 7         : Y              
+GS_2972_CONTROL[2]           : A13       : output : 2.5 V             :         : 7         : Y              
+Tx_Audio[0]                  : A14       : output : 2.5 V             :         : 7         : Y              
+Tx_Audio[7]                  : A15       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[19]                  : A16       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[17]                  : A17       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[15]                  : A18       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[13]                  : A19       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[11]                  : A20       : output : 2.5 V             :         : 7         : Y              
+VCCIO7                       : A21       : power  :                   : 2.5V    : 7         :                
+GND                          : A22       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA1       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA2       :        :                   :         : 2         :                
+mem_cke[0]                   : AA3       : output : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[30]                   : AA4       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[28]                   : AA5       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+VCCIO3                       : AA6       : power  :                   : 1.8V    : 3         :                
+mem_dq[20]                   : AA7       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[17]                   : AA8       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[19]                   : AA9       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[12]                   : AA10      : bidir  : SSTL-18 Class I   :         : 3         : Y              
+GND+                         : AA11      :        :                   :         : 3         :                
+GND+                         : AA12      :        :                   :         : 4         :                
+mem_dm[1]                    : AA13      : output : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[8]                    : AA14      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[15]                   : AA15      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[2]                    : AA16      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA17      :        :                   :         : 4         :                
+VREFB4N1                     : AA18      :        :                   : 0.9V    : 4         :                
+mem_odt[0]                   : AA19      : output : SSTL-18 Class I   :         : 4         : Y              
+mem_addr[0]                  : AA20      : output : SSTL-18 Class I   :         : 4         : Y              
+DATA[4]                      : AA21      : bidir  : 1.8 V             :         : 5         : Y              
+DATA[0]                      : AA22      : bidir  : 1.8 V             :         : 5         : Y              
+GND                          : AB1       : gnd    :                   :         :           :                
+VCCIO3                       : AB2       : power  :                   : 1.8V    : 3         :                
+mem_ba[0]                    : AB3       : output : SSTL-18 Class I   :         : 3         : Y              
+VREFB3N2                     : AB4       :        :                   : 0.9V    : 3         :                
+mem_we_n                     : AB5       : output : SSTL-18 Class I   :         : 3         : Y              
+GND                          : AB6       : gnd    :                   :         :           :                
+mem_addr[1]                  : AB7       : output : SSTL-18 Class I   :         : 3         : Y              
+mem_dm[2]                    : AB8       : output : SSTL-18 Class I   :         : 3         : Y              
+mem_dqs[2]                   : AB9       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB10      :        :                   :         : 3         :                
+GND+                         : AB11      :        :                   :         : 3         :                
+GND+                         : AB12      :        :                   :         : 4         :                
+mem_dq[11]                   : AB13      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[10]                   : AB14      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[13]                   : AB15      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_dm[0]                    : AB16      : output : SSTL-18 Class I   :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB17      :        :                   :         : 4         :                
+mem_dq[5]                    : AB18      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB19      :        :                   :         : 4         :                
+mem_dq[7]                    : AB20      : bidir  : SSTL-18 Class I   :         : 4         : Y              
+VCCIO4                       : AB21      : power  :                   : 1.8V    : 4         :                
+GND                          : AB22      : gnd    :                   :         :           :                
+Rx_HVF_KeyVideo[2]           : B1        : input  : 2.5 V             :         : 1         : Y              
+Rx_HVF_KeyVideo[0]           : B2        : input  : 2.5 V             :         : 1         : Y              
+Rx_Data[1]                   : B3        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[3]                   : B4        : input  : 2.5 V             :         : 8         : Y              
+HVF_delay[1]                 : B5        : output : 2.5 V             :         : 8         : N              
+Rx_Data[7]                   : B6        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[12]                  : B7        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[13]                  : B8        : input  : 2.5 V             :         : 8         : Y              
+Rx_HVF[1]                    : B9        : input  : 2.5 V             :         : 8         : Y              
+Rx_HVF[0]                    : B10       : input  : 2.5 V             :         : 8         : Y              
+Rx_Audio[1]                  : B11       : input  : 2.5 V             :         : 8         : Y              
+Rx_Audio[6]                  : B12       : input  : 2.5 V             :         : 7         : Y              
+GS_2972_CONTROL[3]           : B13       : output : 2.5 V             :         : 7         : Y              
+Tx_Audio[5]                  : B14       : output : 2.5 V             :         : 7         : Y              
+Tx_Audio[8]                  : B15       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[18]                  : B16       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[16]                  : B17       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[14]                  : B18       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[12]                  : B19       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[10]                  : B20       : output : 2.5 V             :         : 7         : Y              
+Tx_Data[9]                   : B21       : output : 1.8 V             :         : 6         : Y              
+Tx_Data[8]                   : B22       : output : 1.8 V             :         : 6         : Y              
+Rx_HVF_KeyVideo[1]           : C1        : input  : 2.5 V             :         : 1         : Y              
+Rx_KeyVideo[9]               : C2        : input  : 2.5 V             :         : 1         : Y              
+Rx_Data[0]                   : C3        : input  : 2.5 V             :         : 8         : Y              
+Video_Key_Audio[1]           : C4        : input  : 2.5 V             :         : 8         : Y              
+GND                          : C5        : gnd    :                   :         :           :                
+Rx_Data[5]                   : C6        : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[10]                  : C7        : input  : 2.5 V             :         : 8         : Y              
+Rx_Audio[0]                  : C8        : input  : 2.5 V             :         : 8         : Y              
+GND                          : C9        : gnd    :                   :         :           :                
+test_signal                  : C10       : output : 2.5 V             :         : 8         : N              
+GND                          : C11       : gnd    :                   :         :           :                
+GND                          : C12       : gnd    :                   :         :           :                
+GS_2972_CONTROL[0]           : C13       : output : 2.5 V             :         : 7         : Y              
+GND                          : C14       : gnd    :                   :         :           :                
+GS_2971_CONTROL[4]           : C15       : output : 2.5 V             :         : 7         : N              
+GND                          : C16       : gnd    :                   :         :           :                
+Tx_Audio[9]                  : C17       : output : 2.5 V             :         : 7         : Y              
+GND                          : C18       : gnd    :                   :         :           :                
+Tx_Audio[6]                  : C19       : output : 2.5 V             :         : 7         : Y              
+Tx_Audio[3]                  : C20       : output : 1.8 V             :         : 6         : Y              
+Tx_Data[7]                   : C21       : output : 1.8 V             :         : 6         : Y              
+Tx_Data[6]                   : C22       : output : 1.8 V             :         : 6         : Y              
+Rx_KeyVideo[8]               : D1        : input  : 2.5 V             :         : 1         : Y              
+Rx_KeyVideo[7]               : D2        : input  : 2.5 V             :         : 1         : Y              
+GND                          : D3        : gnd    :                   :         :           :                
+VCCIO1                       : D4        : power  :                   : 2.5V    : 1         :                
+VCCIO8                       : D5        : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8         :                
+Rx_Audio[3]                  : D7        : input  : 2.5 V             :         : 8         : Y              
+GND                          : D8        : gnd    :                   :         :           :                
+VCCIO8                       : D9        : power  :                   : 2.5V    : 8         :                
+GS_2971_CONTROL[3]           : D10       : output : 2.5 V             :         : 8         : Y              
+VCCIO8                       : D11       : power  :                   : 2.5V    : 8         :                
+VCCIO7                       : D12       : power  :                   : 2.5V    : 7         :                
+Rx_Data[16]                  : D13       : input  : 2.5 V             :         : 7         : Y              
+VCCIO7                       : D14       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D15       :        :                   :         : 7         :                
+VCCIO7                       : D16       : power  :                   : 2.5V    : 7         :                
+my_test[1]                   : D17       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : D18       : power  :                   : 2.5V    : 7         :                
+Tx_Audio[4]                  : D19       : output : 2.5 V             :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D20       :        :                   :         : 6         :                
+Tx_Data[5]                   : D21       : output : 1.8 V             :         : 6         : Y              
+Tx_Data[4]                   : D22       : output : 1.8 V             :         : 6         : Y              
+Rx_KeyVideo[6]               : E1        : input  : 2.5 V             :         : 1         : Y              
+Rx_KeyVideo[5]               : E2        : input  : 2.5 V             :         : 1         : Y              
+Video_Key_Audio[2]           : E3        : input  : 2.5 V             :         : 1         : Y              
+Video_Key_Audio[3]           : E4        : input  : 2.5 V             :         : 1         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E6        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8         :                
+VCCIO8                       : E8        : power  :                   : 2.5V    : 8         :                
+real_active[2]               : E9        : output : 2.5 V             :         : 8         : N              
+Tx_HVF[0]                    : E10       : output : 2.5 V             :         : 8         : Y              
+Tx_HVF[1]                    : E11       : output : 2.5 V             :         : 7         : Y              
+GS_2972_CONTROL[6]           : E12       : output : 2.5 V             :         : 7         : Y              
+real_active[6]               : E13       : output : 2.5 V             :         : 7         : N              
+GS_2972_CONTROL[7]           : E14       : output : 2.5 V             :         : 7         : Y              
+GS_2972_CONTROL[5]           : E15       : output : 2.5 V             :         : 7         : Y              
+GS_2972_CONTROL[8]           : E16       : output : 2.5 V             :         : 7         : Y              
+VCCD_PLL2                    : E17       : power  :                   : 1.2V    :           :                
+GNDA2                        : E18       : gnd    :                   :         :           :                
+VCCIO6                       : E19       : power  :                   : 1.8V    : 6         :                
+GND                          : E20       : gnd    :                   :         :           :                
+Tx_Data[3]                   : E21       : output : 1.8 V             :         : 6         : Y              
+Tx_Data[2]                   : E22       : output : 1.8 V             :         : 6         : Y              
+Rx_KeyVideo[4]               : F1        : input  : 2.5 V             :         : 1         : Y              
+Rx_KeyVideo[3]               : F2        : input  : 2.5 V             :         : 1         : Y              
+GND                          : F3        : gnd    :                   :         :           :                
+VCCIO1                       : F4        : power  :                   : 2.5V    : 1         :                
+GNDA3                        : F5        : gnd    :                   :         :           :                
+VCCD_PLL3                    : F6        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 8         :                
+Rx_Audio[5]                  : F9        : input  : 2.5 V             :         : 8         : Y              
+GS_2971_CONTROL[2]           : F10       : output : 2.5 V             :         : 8         : Y              
+Pclk_Tx                      : F11       : output : 2.5 V             :         : 7         : Y              
+GND                          : F12       : gnd    :                   :         :           :                
+Rx_Data[15]                  : F13       : input  : 2.5 V             :         : 7         : Y              
+Rx_Data[17]                  : F14       : input  : 2.5 V             :         : 7         : Y              
+Rx_Data[19]                  : F15       : input  : 2.5 V             :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F16       :        :                   :         : 7         :                
+GS_4911_F                    : F17       : input  : 1.8 V             :         : 6         : Y              
+VCCA2                        : F18       : power  :                   : 2.5V    :           :                
+Tx_Audio[2]                  : F19       : output : 1.8 V             :         : 6         : Y              
+Tx_Audio[1]                  : F20       : output : 1.8 V             :         : 6         : Y              
+Tx_Data[1]                   : F21       : output : 1.8 V             :         : 6         : Y              
+Tx_Data[0]                   : F22       : output : 1.8 V             :         : 6         : Y              
+Video_Key_Audio[0]           : G1        : input  : 2.5 V             :         : 1         : Y              
+Pclk_KeyVideo                : G2        : input  : 2.5 V             :         : 1         : Y              
+Rx_HVF_KeyAnpha[2]           : G3        : input  : 2.5 V             :         : 1         : Y              
+Rx_HVF_KeyAnpha[0]           : G4        : input  : 2.5 V             :         : 1         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G5        :        :                   :         : 1         :                
+VCCA3                        : G6        : power  :                   : 2.5V    :           :                
+HVF_delay[0]                 : G7        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :         : 8         :                
+GS_2971_CONTROL[0]           : G9        : output : 2.5 V             :         : 8         : Y              
+Rx_Audio[4]                  : G10       : input  : 2.5 V             :         : 8         : Y              
+Rx_Data[14]                  : G11       : input  : 2.5 V             :         : 8         : Y              
+VCCINT                       : G12       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G13       :        :                   :         : 7         :                
+GS_2971_CONTROL[1]           : G14       : output : 2.5 V             :         : 7         : N              
+Rx_Data[18]                  : G15       : input  : 2.5 V             :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G16       :        :                   :         : 7         :                
+GS_4911_V                    : G17       : input  : 1.8 V             :         : 6         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :         : 6         :                
+VCCIO6                       : G19       : power  :                   : 1.8V    : 6         :                
+GND                          : G20       : gnd    :                   :         :           :                
+AClk4911                     : G21       : input  : 1.8 V             :         : 6         : Y              
+Pclk_GS4911                  : G22       : input  : 1.8 V             :         : 6         : Y              
+Rx_KeyVideo[2]               : H1        : input  : 2.5 V             :         : 1         : Y              
+Rx_KeyVideo[1]               : H2        : input  : 2.5 V             :         : 1         : Y              
+GND                          : H3        : gnd    :                   :         :           :                
+VCCIO1                       : H4        : power  :                   : 2.5V    : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H5        :        :                   :         : 1         :                
+Anpha_Key_Audio[0]           : H6        : input  : 2.5 V             :         : 1         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H8        :        :                   :         : 1         :                
+VCCINT                       : H9        : power  :                   : 1.2V    :           :                
+Tx_HVF[2]                    : H10       : output : 2.5 V             :         : 8         : Y              
+Rx_Data[9]                   : H11       : input  : 2.5 V             :         : 8         : Y              
+GND                          : H12       : gnd    :                   :         :           :                
+GND                          : H13       : gnd    :                   :         :           :                
+GS_2972_CONTROL[1]           : H14       : output : 2.5 V             :         : 7         : Y              
+GS_2972_CONTROL[4]           : H15       : output : 2.5 V             :         : 7         : Y              
+NWAIT                        : H16       : input  : 1.8 V             :         : 6         : Y              
+GS_4911_H                    : H17       : input  : 1.8 V             :         : 6         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H18       :        :                   :         : 6         :                
+ADR[20]                      : H19       : input  : 1.8 V             :         : 6         : Y              
+ADR[23]                      : H20       : input  : 1.8 V             :         : 6         : Y              
+ADR[2]                       : H21       : input  : 1.8 V             :         : 6         : Y              
+ADR[6]                       : H22       : input  : 1.8 V             :         : 6         : Y              
+Rx_KeyVideo[0]               : J1        : input  : 2.5 V             :         : 1         : Y              
+Rx_KeyAnpha[9]               : J2        : input  : 2.5 V             :         : 1         : Y              
+real_active[9]               : J3        : output : 2.5 V             :         : 1         : N              
+Rx_HVF_KeyAnpha[1]           : J4        : input  : 2.5 V             :         : 1         : Y              
+Anpha_Key_Audio[2]           : J5        : input  : 2.5 V             :         : 1         : Y              
+Anpha_Key_Audio[3]           : J6        : input  : 2.5 V             :         : 1         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J8        :        :                   :         : 1         :                
+GND                          : J9        : gnd    :                   :         :           :                
+VCCINT                       : J10       : power  :                   : 1.2V    :           :                
+VCCINT                       : J11       : power  :                   : 1.2V    :           :                
+VCCINT                       : J12       : power  :                   : 1.2V    :           :                
+VCCINT                       : J13       : power  :                   : 1.2V    :           :                
+VCCINT                       : J14       : power  :                   : 1.2V    :           :                
+GND                          : J15       : gnd    :                   :         :           :                
+VCCINT                       : J16       : power  :                   : 1.2V    :           :                
+DATA[14]                     : J17       : bidir  : 1.8 V             :         : 6         : Y              
+mem_addr[15]                 : J18       : output : SSTL-18 Class I   :         : 6         : N              
+GND                          : J19       : gnd    :                   :         :           :                
+VCCIO6                       : J20       : power  :                   : 1.8V    : 6         :                
+ADR[8]                       : J21       : input  : 1.8 V             :         : 6         : Y              
+NWR0                         : J22       : input  : 1.8 V             :         : 6         : Y              
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : K1        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_DCLK~                : K2        : output : 2.5 V             :         : 1         : N              
+GND                          : K3        : gnd    :                   :         :           :                
+VCCIO1                       : K4        : power  :                   : 2.5V    : 1         :                
+nCONFIG                      : K5        :        :                   :         : 1         :                
+nSTATUS                      : K6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K8        :        :                   :         : 1         :                
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+GND                          : K11       : gnd    :                   :         :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+GND                          : K13       : gnd    :                   :         :           :                
+VCCINT                       : K14       : power  :                   : 1.2V    :           :                
+VCCINT                       : K15       : power  :                   : 1.2V    :           :                
+GND                          : K16       : gnd    :                   :         :           :                
+ADR[17]                      : K17       : input  : 1.8 V             :         : 6         : Y              
+ADR[16]                      : K18       : input  : 1.8 V             :         : 6         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K19       :        :                   :         : 6         :                
+MSEL3                        : K20       :        :                   :         : 6         :                
+NCS0                         : K21       : input  : 1.8 V             :         : 6         : Y              
+NWR3                         : K22       : input  : 1.8 V             :         : 6         : Y              
+TMS                          : L1        : input  :                   :         : 1         :                
+TCK                          : L2        : input  :                   :         : 1         :                
+nCE                          : L3        :        :                   :         : 1         :                
+TDO                          : L4        : output :                   :         : 1         :                
+TDI                          : L5        : input  :                   :         : 1         :                
+real_active[4]               : L6        : output : 2.5 V             :         : 2         : N              
+real_active[3]               : L7        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L8        :        :                   :         : 1         :                
+VCCINT                       : L9        : power  :                   : 1.2V    :           :                
+GND                          : L10       : gnd    :                   :         :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+GND                          : L12       : gnd    :                   :         :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+VCCINT                       : L14       : power  :                   : 1.2V    :           :                
+GND                          : L15       : gnd    :                   :         :           :                
+VCCINT                       : L16       : power  :                   : 1.2V    :           :                
+MSEL2                        : L17       :        :                   :         : 6         :                
+MSEL1                        : L18       :        :                   :         : 6         :                
+VCCIO6                       : L19       : power  :                   : 1.8V    : 6         :                
+GND                          : L20       : gnd    :                   :         :           :                
+NRD                          : L21       : input  : 1.8 V             :         : 6         : Y              
+NWR1                         : L22       : input  : 1.8 V             :         : 6         : Y              
+Rx_KeyAnpha[8]               : M1        : input  : 2.5 V             :         : 2         : Y              
+Rx_KeyAnpha[7]               : M2        : input  : 2.5 V             :         : 2         : Y              
+real_active[0]               : M3        : output : 2.5 V             :         : 2         : N              
+real_active[10]              : M4        : output : 2.5 V             :         : 2         : N              
+real_active[5]               : M5        : output : 2.5 V             :         : 2         : N              
+real_active[8]               : M6        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M8        :        :                   :         : 2         :                
+VCCINT                       : M9        : power  :                   : 1.2V    :           :                
+GND                          : M10       : gnd    :                   :         :           :                
+GND                          : M11       : gnd    :                   :         :           :                
+GND                          : M12       : gnd    :                   :         :           :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCINT                       : M14       : power  :                   : 1.2V    :           :                
+VCCINT                       : M15       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M16       :        :                   :         : 5         :                
+MSEL0                        : M17       :        :                   :         : 6         :                
+CONF_DONE                    : M18       :        :                   :         : 6         :                
+ADR[10]                      : M19       : input  : 1.8 V             :         : 5         : Y              
+ADR[4]                       : M20       : input  : 1.8 V             :         : 5         : Y              
+ADR[3]                       : M21       : input  : 1.8 V             :         : 5         : Y              
+ADR[5]                       : M22       : input  : 1.8 V             :         : 5         : Y              
+Rx_KeyAnpha[6]               : N1        : input  : 2.5 V             :         : 2         : Y              
+Rx_KeyAnpha[5]               : N2        : input  : 2.5 V             :         : 2         : Y              
+GND                          : N3        : gnd    :                   :         :           :                
+VCCIO2                       : N4        : power  :                   : 2.5V    : 2         :                
+real_active[7]               : N5        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N7        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 2         :                
+VCCINT                       : N9        : power  :                   : 1.2V    :           :                
+GND                          : N10       : gnd    :                   :         :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+GND                          : N12       : gnd    :                   :         :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+VCCINT                       : N14       : power  :                   : 1.2V    :           :                
+GND                          : N15       : gnd    :                   :         :           :                
+ADR[0]                       : N16       : input  : 1.8 V             :         : 5         : N              
+DATA[3]                      : N17       : bidir  : 1.8 V             :         : 5         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 5         :                
+ADR[13]                      : N19       : input  : 1.8 V             :         : 5         : Y              
+ADR[7]                       : N20       : input  : 1.8 V             :         : 5         : Y              
+ADR[9]                       : N21       : input  : 1.8 V             :         : 5         : Y              
+ADR[11]                      : N22       : input  : 1.8 V             :         : 5         : Y              
+Rx_KeyAnpha[4]               : P1        : input  : 2.5 V             :         : 2         : Y              
+Rx_KeyAnpha[3]               : P2        : input  : 2.5 V             :         : 2         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 2         :                
+real_active[1]               : P4        : output : 2.5 V             :         : 2         : N              
+my_test[0]                   : P5        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P7        :        :                   :         : 2         :                
+GND                          : P8        : gnd    :                   :         :           :                
+VCCINT                       : P9        : power  :                   : 1.2V    :           :                
+VCCINT                       : P10       : power  :                   : 1.2V    :           :                
+VCCINT                       : P11       : power  :                   : 1.2V    :           :                
+VCCINT                       : P12       : power  :                   : 1.2V    :           :                
+VCCINT                       : P13       : power  :                   : 1.2V    :           :                
+VCCINT                       : P14       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P15       :        :                   :         : 5         :                
+mem_addr[13]                 : P16       : output : SSTL-18 Class I   :         : 5         : N              
+DATA[5]                      : P17       : bidir  : 1.8 V             :         : 5         : Y              
+VCCIO5                       : P18       : power  :                   : 1.8V    : 5         :                
+GND                          : P19       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P20       :        :                   :         : 5         :                
+ADR[15]                      : P21       : input  : 1.8 V             :         : 5         : Y              
+ADR[21]                      : P22       : input  : 1.8 V             :         : 5         : Y              
+Rx_KeyAnpha[2]               : R1        : input  : 2.5 V             :         : 2         : Y              
+Rx_KeyAnpha[1]               : R2        : input  : 2.5 V             :         : 2         : Y              
+GND                          : R3        : gnd    :                   :         :           :                
+VCCIO2                       : R4        : power  :                   : 2.5V    : 2         :                
+NWR2                         : R5        : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R7        :        :                   :         : 2         :                
+VCCINT                       : R8        : power  :                   : 1.2V    :           :                
+GND                          : R9        : gnd    :                   :         :           :                
+VCCINT                       : R10       : power  :                   : 1.2V    :           :                
+GND                          : R11       : gnd    :                   :         :           :                
+VCCINT                       : R12       : power  :                   : 1.2V    :           :                
+GND                          : R13       : gnd    :                   :         :           :                
+mem_clk[0]                   : R14       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_clk_n[0]                 : R15       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R16       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R17       :        :                   :         : 5         :                
+DATA[1]                      : R18       : bidir  : 1.8 V             :         : 5         : Y              
+DATA[6]                      : R19       : bidir  : 1.8 V             :         : 5         : Y              
+ADR[14]                      : R20       : input  : 1.8 V             :         : 5         : Y              
+ADR[22]                      : R21       : input  : 1.8 V             :         : 5         : Y              
+DATA[7]                      : R22       : bidir  : 1.8 V             :         : 5         : Y              
+Pclk_KeyAnpha                : T1        : input  : 2.5 V             :         : 2         : Y              
+Anpha_Key_Audio[1]           : T2        : input  : 2.5 V             :         : 2         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T4        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T5        :        :                   :         : 2         :                
+VCCA1                        : T6        : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 2         :                
+mem_addr[3]                  : T8        : output : SSTL-18 Class I   :         : 3         : Y              
+mem_addr[14]                 : T9        : output : SSTL-18 Class I   :         : 3         : N              
+mem_addr[12]                 : T10       : output : SSTL-18 Class I   :         : 3         : Y              
+mem_addr[8]                  : T11       : output : SSTL-18 Class I   :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T12       :        :                   :         : 4         :                
+mem_addr[6]                  : T13       : output : SSTL-18 Class I   :         : 4         : Y              
+mem_addr[4]                  : T14       : output : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[6]                    : T15       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_addr[11]                 : T16       : output : SSTL-18 Class I   :         : 4         : Y              
+ADR[24]                      : T17       : input  : 1.8 V             :         : 5         : Y              
+ADR[1]                       : T18       : input  : 1.8 V             :         : 5         : Y              
+VCCIO5                       : T19       : power  :                   : 1.8V    : 5         :                
+GND                          : T20       : gnd    :                   :         :           :                
+GND+                         : T21       :        :                   :         : 5         :                
+GND+                         : T22       :        :                   :         : 5         :                
+Rx_KeyAnpha[0]               : U1        : input  : 2.5 V             :         : 2         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U2        :        :                   :         : 2         :                
+GND                          : U3        : gnd    :                   :         :           :                
+VCCIO2                       : U4        : power  :                   : 2.5V    : 2         :                
+GNDA1                        : U5        : gnd    :                   :         :           :                
+VCCD_PLL1                    : U6        : power  :                   : 1.2V    :           :                
+mem_ba[1]                    : U7        : output : SSTL-18 Class I   :         : 3         : Y              
+mem_addr[7]                  : U8        : output : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[29]                   : U9        : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[18]                   : U10       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+VREFB3N0                     : U11       :        :                   : 0.9V    : 3         :                
+mem_dq[14]                   : U12       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U13       :        :                   :         : 4         :                
+mem_addr[2]                  : U14       : output : SSTL-18 Class I   :         : 4         : Y              
+mem_cas_n                    : U15       : output : SSTL-18 Class I   :         : 4         : Y              
+mem_ras_n                    : U16       : output : SSTL-18 Class I   :         : 4         : Y              
+mem_cs_n[0]                  : U17       : output : SSTL-18 Class I   :         : 4         : Y              
+VCCA4                        : U18       : power  :                   : 2.5V    :           :                
+ADR[18]                      : U19       : input  : 1.8 V             :         : 5         : Y              
+ADR[19]                      : U20       : input  : 1.8 V             :         : 5         : Y              
+DATA[2]                      : U21       : bidir  : 1.8 V             :         : 5         : Y              
+DATA[8]                      : U22       : bidir  : 1.8 V             :         : 5         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V4        :        :                   :         : 2         :                
+mem_dq[25]                   : V5        : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_addr[10]                 : V6        : output : SSTL-18 Class I   :         : 3         : Y              
+mem_addr[9]                  : V7        : output : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[24]                   : V8        : bidir  : SSTL-18 Class I   :         : 3         : Y              
+VREFB3N1                     : V9        :        :                   : 0.9V    : 3         :                
+mem_dqs[3]                   : V10       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[23]                   : V11       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+VREFB4N3                     : V12       :        :                   : 0.9V    : 4         :                
+mem_dqs[0]                   : V13       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[4]                    : V14       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+mem_dq[3]                    : V15       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+VREFB4N0                     : V16       :        :                   : 0.9V    : 4         :                
+VCCD_PLL4                    : V17       : power  :                   : 1.2V    :           :                
+GNDA4                        : V18       : gnd    :                   :         :           :                
+VCCIO5                       : V19       : power  :                   : 1.8V    : 5         :                
+GND                          : V20       : gnd    :                   :         :           :                
+DATA[12]                     : V21       : bidir  : 1.8 V             :         : 5         : Y              
+DATA[11]                     : V22       : bidir  : 1.8 V             :         : 5         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W2        :        :                   :         : 2         :                
+GND                          : W3        : gnd    :                   :         :           :                
+VCCIO2                       : W4        : power  :                   : 2.5V    : 2         :                
+VCCIO3                       : W5        : power  :                   : 1.8V    : 3         :                
+mem_dm[3]                    : W6        : output : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[27]                   : W7        : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[31]                   : W8        : bidir  : SSTL-18 Class I   :         : 3         : Y              
+VCCIO3                       : W9        : power  :                   : 1.8V    : 3         :                
+mem_dq[21]                   : W10       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+VCCIO3                       : W11       : power  :                   : 1.8V    : 3         :                
+VCCIO4                       : W12       : power  :                   : 1.8V    : 4         :                
+mem_dq[9]                    : W13       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+VREFB4N2                     : W14       :        :                   : 0.9V    : 4         :                
+mem_dq[1]                    : W15       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+VCCIO4                       : W16       : power  :                   : 1.8V    : 4         :                
+mem_dq[0]                    : W17       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+VCCIO4                       : W18       : power  :                   : 1.8V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W19       :        :                   :         : 5         :                
+ADR[12]                      : W20       : input  : 1.8 V             :         : 5         : Y              
+DATA[13]                     : W21       : bidir  : 1.8 V             :         : 5         : Y              
+DATA[9]                      : W22       : bidir  : 1.8 V             :         : 5         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y1        :        :                   :         : 2         :                
+HVF_delay[2]                 : Y2        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 3         :                
+VREFB3N3                     : Y4        :        :                   : 0.9V    : 3         :                
+GND                          : Y5        : gnd    :                   :         :           :                
+mem_addr[5]                  : Y6        : output : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[26]                   : Y7        : bidir  : SSTL-18 Class I   :         : 3         : Y              
+mem_dq[22]                   : Y8        : bidir  : SSTL-18 Class I   :         : 3         : Y              
+GND                          : Y9        : gnd    :                   :         :           :                
+mem_dq[16]                   : Y10       : bidir  : SSTL-18 Class I   :         : 3         : Y              
+GND                          : Y11       : gnd    :                   :         :           :                
+GND                          : Y12       : gnd    :                   :         :           :                
+mem_dqs[1]                   : Y13       : bidir  : SSTL-18 Class I   :         : 4         : Y              
+VCCIO4                       : Y14       : power  :                   : 1.8V    : 4         :                
+GND                          : Y15       : gnd    :                   :         :           :                
+GND                          : Y16       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y17       :        :                   :         : 4         :                
+GND                          : Y18       : gnd    :                   :         :           :                
+VCCIO5                       : Y19       : power  :                   : 1.8V    : 5         :                
+GND                          : Y20       : gnd    :                   :         :           :                
+DATA[15]                     : Y21       : bidir  : 1.8 V             :         : 5         : Y              
+DATA[10]                     : Y22       : bidir  : 1.8 V             :         : 5         : Y              

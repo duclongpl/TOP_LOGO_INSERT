@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jan 26 16:03:36 2015
+Quartus II 64-Bit Version : 11.1 Build 173 11/01/2011 SJ Full Version
+Revision Name : hdlogo_v1_0_0
+Top-level Entity Name : Top_HD_LogoInsert
+Family : Cyclone III
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge

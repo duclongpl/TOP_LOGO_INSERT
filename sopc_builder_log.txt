@@ -1,0 +1,5 @@
+Info: Saving your IP search path in E:\SAU\Projects\OrCAD\.altera.quartus\ip\9.1\ip_search_path\user_components.ipx
+Info: Using factories: CuspFactory, ImportFactory, DSPBuilderFactory, EmbeddedSwTclDriverFactory, JarFactory, TclModuleFactory, SopcXmlFactory, MegaVariationFactory, BeanElementFactory, LegacyFactory, DDRLegacyFactory, PresetFactory
+Progress: (0) searching E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/9.1 (command line switch)
+Info: E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/9.1 matched 1 files in 0.00 seconds
+Info: Found 0 components

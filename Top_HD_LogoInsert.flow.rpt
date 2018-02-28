@@ -1,0 +1,211 @@
+Flow report for Top_HD_LogoInsert
+Fri Jun 28 17:54:30 2013
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Fri Jun 28 17:54:30 2013    ;
+; Quartus II Version                 ; 9.1 Build 222 10/21/2009 SJ Full Version ;
+; Revision Name                      ; Top_HD_LogoInsert                        ;
+; Top-level Entity Name              ; Top_HD_LogoInsert                        ;
+; Family                             ; Cyclone III                              ;
+; Device                             ; EP3C40F484C7                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; N/A                                      ;
+; Total logic elements               ; 13,319 / 39,600 ( 34 % )                 ;
+;     Total combinational functions  ; 10,660 / 39,600 ( 27 % )                 ;
+;     Dedicated logic registers      ; 6,810 / 39,600 ( 17 % )                  ;
+; Total registers                    ; 6944                                     ;
+; Total pins                         ; 253 / 332 ( 76 % )                       ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 632,232 / 1,161,216 ( 54 % )             ;
+; Embedded Multiplier 9-bit elements ; 68 / 252 ( 27 % )                        ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                           ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/16/2013 11:35:30 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Top_HD_LogoInsert   ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                          ;
++--------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------+-------------+----------------+
+; Assignment Name                      ; Value                                                                                                ; Default Value                ; Entity Name ; Section Id     ;
++--------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 146464645518.136867893004716                                                                         ; --                           ; --          ; --             ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Test Bench                                                                                           ; --                           ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                          ; --                           ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                                                            ; <None>                       ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                      ; --                           ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                                                 ; --                           ; --          ; eda_simulation ;
+; ENABLE_SIGNALTAP                     ; Off                                                                                                  ; --                           ; --          ; --             ;
+; INCREMENTAL_COMPILATION              ; Off                                                                                                  ; FULL_INCREMENTAL_COMPILATION ; --          ; --             ;
+; IP_TOOL_NAME                         ; ALTCLKCTRL                                                                                           ; --                           ; --          ; --             ;
+; IP_TOOL_NAME                         ; DDR2 High Performance Controller                                                                     ; --                           ; --          ; --             ;
+; IP_TOOL_NAME                         ; altmemphy                                                                                            ; --                           ; --          ; --             ;
+; IP_TOOL_NAME                         ; ALTPLL                                                                                               ; --                           ; --          ; --             ;
+; IP_TOOL_NAME                         ; ALTCLKCTRL                                                                                           ; --                           ; --          ; --             ;
+; IP_TOOL_NAME                         ; ALTCLKCTRL                                                                                           ; --                           ; --          ; --             ;
+; IP_TOOL_NAME                         ; FIFO                                                                                                 ; --                           ; --          ; --             ;
+; IP_TOOL_NAME                         ; FIFO                                                                                                 ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; IP_TOOL_VERSION                      ; 9.1                                                                                                  ; --                           ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                                                   ; --                           ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                                                    ; --                           ; --          ; --             ;
+; MISC_FILE                            ; H:/Projects/HD_SDI_Board/altera/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf                              ; --                           ; --          ; --             ;
+; MISC_FILE                            ; H:/Projects/HD_SDI_Board/altera/17_5_2011/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf                    ; --                           ; --          ; --             ;
+; MISC_FILE                            ; G:/Projects/HD_SDI_Board/altera/Logo_HD/3_2_2012/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf             ; --                           ; --          ; --             ;
+; MISC_FILE                            ; F:/Projects/HD_SDI_Board/altera/Logo_HD/21_3_2012/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf            ; --                           ; --          ; --             ;
+; MISC_FILE                            ; F:/Projects/HD_SDI_Board/altera/Logo_HD/03_05_2012/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf           ; --                           ; --          ; --             ;
+; MISC_FILE                            ; F:/Projects/HD_SDI_Board/altera/Logo_HD/kiemtrakey/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf           ; --                           ; --          ; --             ;
+; MISC_FILE                            ; F:/Projects/HD_SDI_Board/altera/Logo_HD/KEY_LOGO_LEVELER/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf     ; --                           ; --          ; --             ;
+; MISC_FILE                            ; F:/Projects/HD_SDI_Board/altera/Logo_HD/NEW_HDSDI/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf            ; --                           ; --          ; --             ;
+; MISC_FILE                            ; F:/Projects/HD_SDI_Board/altera/Logo_HD/NEW_HDSDI/HD_SDI_1V8/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf ; --                           ; --          ; --             ;
+; MISC_FILE                            ; C:/learning/ALC/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf                                              ; --                           ; --          ; --             ;
+; MISC_FILE                            ; GLBCLK_2X1.bsf                                                                                       ; --                           ; --          ; --             ;
+; MISC_FILE                            ; GLBCLK_2X1_bb.v                                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; GLBCLK_2X1.cmp                                                                                       ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF.v                                                                                            ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_bb.v                                                                                         ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF.bsf                                                                                          ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_auk_ddr_hp_controller_wrapper.vo                                                             ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF.qip                                                                                          ; --                           ; --          ; --             ;
+; MISC_FILE                            ; auk_ddr_hp_controller.vhd                                                                            ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_example_driver.v                                                                             ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_example_top.v                                                                                ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_ex_lfsr8.v                                                                                   ; --                           ; --          ; --             ;
+; MISC_FILE                            ; testbench/DDR2_IF_example_top_tb.v                                                                   ; --                           ; --          ; --             ;
+; MISC_FILE                            ; testbench/DDR2_IF_mem_model.v                                                                        ; --                           ; --          ; --             ;
+; MISC_FILE                            ; testbench/DDR2_IF_full_mem_model.v                                                                   ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_pin_assignments.tcl                                                                          ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy.v                                                                                        ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_bb.v                                                                                     ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy.bsf                                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy_seq_wrapper.vo                                                               ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy.qip                                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy_seq_wrapper.v                                                                ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy_seq.vhd                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy.v                                                                            ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy_pll.v                                                                        ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_pin_assignments.tcl                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_ddr_pins.tcl                                                                             ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_report_timing.tcl                                                                        ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy_pll.bsf                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy_pll_bb.v                                                                     ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy_alt_mem_phy_pll.cmp                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; alt_mem_phy_defines.v                                                                                ; --                           ; --          ; --             ;
+; MISC_FILE                            ; DDR2_IF_phy.ppf                                                                                      ; --                           ; --          ; --             ;
+; MISC_FILE                            ; clk_mux_bb.v                                                                                         ; --                           ; --          ; --             ;
+; MISC_FILE                            ; testclk_bb.v                                                                                         ; --                           ; --          ; --             ;
+; MISC_FILE                            ; A_DELAY_bb.v                                                                                         ; --                           ; --          ; --             ;
+; MISC_FILE                            ; A_DELAY.cmp                                                                                          ; --                           ; --          ; --             ;
+; MISC_FILE                            ; FIFO_RMS_bb.v                                                                                        ; --                           ; --          ; --             ;
+; MISC_FILE                            ; FIFO_RMS.cmp                                                                                         ; --                           ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                                                                                 ; --                           ; --          ; --             ;
+; NUM_PARALLEL_PROCESSORS              ; All                                                                                                  ; --                           ; --          ; --             ;
+; OPTIMIZE_MULTI_CORNER_TIMING         ; On                                                                                                   ; Off                          ; --          ; --             ;
+; PARTITION_COLOR                      ; 16764057                                                                                             ; --                           ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                                                                                ; --                           ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE               ; POST_FIT                                                                                             ; --                           ; --          ; Top            ;
+; SEARCH_PATH                          ; C:/altera/72/ip/ddr2_high_perf/lib/                                                                  ; --                           ; --          ; --             ;
+; SEARCH_PATH                          ; ./                                                                                                   ; --                           ; --          ; --             ;
+; SEARCH_PATH                          ; ddr2_high_performance_controller-library/                                                            ; --                           ; --          ; --             ;
+; SEARCH_PATH                          ; altmemphy-library/                                                                                   ; --                           ; --          ; --             ;
+; SEARCH_PATH                          ; .                                                                                                    ; --                           ; --          ; --             ;
+; SEARCH_PATH                          ; ddr2_high_performance_controller-library                                                             ; --                           ; --          ; --             ;
+; SEARCH_PATH                          ; .                                                                                                    ; --                           ; --          ; --             ;
+; SEARCH_PATH                          ; altmemphy-library                                                                                    ; --                           ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS   ; Off                                                                                                  ; --                           ; --          ; eda_blast_fpga ;
+; USE_SIGNALTAP_FILE                   ; ../kiemtra_audio.stp                                                                                 ; --                           ; --          ; --             ;
++--------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:02:58     ; 1.0                     ; 419 MB              ; 00:02:57                           ;
+; Fitter                    ; 00:06:29     ; 1.4                     ; 493 MB              ; 00:06:59                           ;
+; TimeQuest Timing Analyzer ; 00:02:47     ; 1.0                     ; 386 MB              ; 00:02:45                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 308 MB              ; 00:00:06                           ;
+; EDA Netlist Writer        ; 00:00:34     ; 1.0                     ; 312 MB              ; 00:00:34                           ;
+; I/O Assignment Analysis   ; 00:00:10     ; 1.0                     ; 282 MB              ; 00:00:11                           ;
+; Total                     ; 00:12:58     ; --                      ; --                  ; 00:13:26                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++---------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; Hien-PC          ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                    ; Hien-PC          ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler                 ; Hien-PC          ; Windows Vista ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Hien-PC          ; Windows Vista ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; Hien-PC          ; Windows Vista ; 6.1        ; x86_64         ;
+; I/O Assignment Analysis   ; Sau-PC           ; Windows Vista ; 6.1        ; x86_64         ;
++---------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Top_HD_LogoInsert -c Top_HD_LogoInsert
+quartus_fit --read_settings_files=off --write_settings_files=off Top_HD_LogoInsert -c Top_HD_LogoInsert
+quartus_asm --read_settings_files=off --write_settings_files=off Top_HD_LogoInsert -c Top_HD_LogoInsert
+quartus_sta Top_HD_LogoInsert -c Top_HD_LogoInsert
+quartus_eda --read_settings_files=off --write_settings_files=off Top_HD_LogoInsert -c Top_HD_LogoInsert
+quartus_fit --read_settings_files=on --write_settings_files=off Top_HD_LogoInsert -c Top_HD_LogoInsert --check_ios
+
+
+

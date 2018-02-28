@@ -1,0 +1,164 @@
+Archive Project report for hdlogo_v1_0_0
+Fri Jun 28 18:07:31 2013
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Fri Jun 28 18:07:31 2013 ;
+; Revision Name          ; hdlogo_v1_0_0                         ;
+; Top-level Entity Name  ; Top_HD_LogoInsert                     ;
+; Family                 ; Cyclone III                           ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/hdlogo_v1_0_0.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'hdlogo_v1_0_0.archive.rpt'
+Info: Evaluation of Tcl script c:/altera/91/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 171 megabytes
+    Info: Processing ended: Fri Jun 28 18:07:31 2013
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
+
+
++----------------------------------------------------------------------------------+
+; Files Archived                                                                   ;
++----------------------------------------------------------------------------------+
+; File Name                                                                        ;
++----------------------------------------------------------------------------------+
+; A_DELAY.cmp                                                                      ;
+; A_DELAY.qip                                                                      ;
+; A_DELAY.v                                                                        ;
+; A_DELAY_bb.v                                                                     ;
+; alt_mem_phy_defines.v                                                            ;
+; altmemphy-library/auk_ddr_hp_controller.ocp                                      ;
+; anpha.v                                                                          ;
+; Audio.v                                                                          ;
+; audio_mixer.v                                                                    ;
+; Audio_Out.v                                                                      ;
+; auk_ddr_hp_controller.ocp                                                        ;
+; auk_ddr_hp_controller.vhd                                                        ;
+; c:/altera/91/quartus/bin/assignment_defaults.qdf                                 ;
+; CheckMCU.stp                                                                     ;
+; CheckSDIKeyVideo.stp                                                             ;
+; clk_mux.qip                                                                      ;
+; clk_mux.v                                                                        ;
+; clk_mux_bb.v                                                                     ;
+; Convert20b210b.v                                                                 ;
+; ddr2_high_performance_controller-library/auk_ddr_hp_controller.ocp               ;
+; DDR2_IF.bsf                                                                      ;
+; DDR2_IF.qip                                                                      ;
+; DDR2_IF.v                                                                        ;
+; DDR2_IF_advisor.ipa                                                              ;
+; DDR2_IF_auk_ddr_hp_controller_wrapper.v                                          ;
+; DDR2_IF_auk_ddr_hp_controller_wrapper.vo                                         ;
+; DDR2_IF_bb.v                                                                     ;
+; DDR2_IF_controller_phy.v                                                         ;
+; DDR2_IF_ex_lfsr8.v                                                               ;
+; DDR2_IF_example_driver.v                                                         ;
+; DDR2_IF_example_top.sdc                                                          ;
+; DDR2_IF_example_top.v                                                            ;
+; DDR2_IF_phy.bsf                                                                  ;
+; DDR2_IF_phy.qip                                                                  ;
+; DDR2_IF_phy.v                                                                    ;
+; DDR2_IF_phy_alt_mem_phy.v                                                        ;
+; DDR2_IF_phy_alt_mem_phy_pll.bsf                                                  ;
+; DDR2_IF_phy_alt_mem_phy_pll.cmp                                                  ;
+; DDR2_IF_phy_alt_mem_phy_pll.qip                                                  ;
+; DDR2_IF_phy_alt_mem_phy_pll.v                                                    ;
+; DDR2_IF_phy_alt_mem_phy_pll_bb.v                                                 ;
+; DDR2_IF_phy_alt_mem_phy_seq.vhd                                                  ;
+; DDR2_IF_phy_alt_mem_phy_seq_wrapper.v                                            ;
+; DDR2_IF_phy_alt_mem_phy_seq_wrapper.vo                                           ;
+; DDR2_IF_phy_autodetectedpins.tcl                                                 ;
+; DDR2_IF_phy_bb.v                                                                 ;
+; DDR2_IF_phy_ddr_pins.tcl                                                         ;
+; DDR2_IF_phy_ddr_timing.sdc                                                       ;
+; DDR2_IF_phy_report_timing.tcl                                                    ;
+; DDR2_IF_pin_assignments.tcl                                                      ;
+; E:/HD VIETNAM/HDLogoInsert/Altera/Source/Top_HD_LogoInsert/Top_HD_LogoInsert.dpf ;
+; FIFO_1X4.v                                                                       ;
+; FIFO_23x4.v                                                                      ;
+; FIFO_BUFF.cmp                                                                    ;
+; FIFO_BUFF.v                                                                      ;
+; FIFO_RMS.cmp                                                                     ;
+; FIFO_RMS.qip                                                                     ;
+; FIFO_RMS.v                                                                       ;
+; FIFO_RMS_bb.v                                                                    ;
+; gain.v                                                                           ;
+; GLBCLK_2X1.bsf                                                                   ;
+; GLBCLK_2X1.cmp                                                                   ;
+; GLBCLK_2X1.qip                                                                   ;
+; GLBCLK_2X1.v                                                                     ;
+; GLBCLK_2X1_bb.v                                                                  ;
+; hdlogo_v1_0_0.qsf                                                                ;
+; Key_Math.v                                                                       ;
+; kiemtra.stp                                                                      ;
+; kiemtracpu.stp                                                                   ;
+; LineSync.v                                                                       ;
+; LineSync1.v                                                                      ;
+; logo_key.v                                                                       ;
+; lpm_add_sub0.v                                                                   ;
+; lpm_add_sub1.v                                                                   ;
+; lpm_mult0.v                                                                      ;
+; MUX_96X24.v                                                                      ;
+; myaudio.stp                                                                      ;
+; new_rms.v                                                                        ;
+; peak_detect.v                                                                    ;
+; ReadMe.txt                                                                       ;
+; RMS.v                                                                            ;
+; rms_detect.v                                                                     ;
+; testbench/DDR2_IF_example_top_tb.v                                               ;
+; testbench/DDR2_IF_full_mem_model.v                                               ;
+; testbench/DDR2_IF_mem_model.v                                                    ;
+; testclk.qip                                                                      ;
+; testclk.v                                                                        ;
+; testclk_bb.v                                                                     ;
+; Top_HD_LogoInsert.out.sdc                                                        ;
+; Top_HD_LogoInsert.qpf                                                            ;
+; Top_HD_LogoInsert.qsf                                                            ;
+; Top_HD_LogoInsert.v                                                              ;
++----------------------------------------------------------------------------------+
+
+

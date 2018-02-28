@@ -1,0 +1,5 @@
+PLL_Name	DDR2_IF:DDR2_IF_inst|DDR2_IF_controller_phy:DDR2_IF_controller_phy_inst|DDR2_IF_phy:DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy:DDR2_IF_phy_alt_mem_phy_inst|DDR2_IF_phy_alt_mem_phy_clk_reset:clk|DDR2_IF_phy_alt_mem_phy_pll:pll|altpll:altpll_component|altpll_5mi3:auto_generated|pll1
+PLLJITTER	33
+PLLSPEmax	84
+PLLSPEmin	-53
+

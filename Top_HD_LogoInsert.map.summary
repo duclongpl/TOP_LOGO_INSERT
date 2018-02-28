@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 16 11:38:27 2013
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : Top_HD_LogoInsert
+Top-level Entity Name : Top_HD_LogoInsert
+Family : Cyclone III
+Total logic elements : 14,640
+    Total combinational functions : 10,658
+    Dedicated logic registers : 6,810
+Total registers : 6944
+Total pins : 253
+Total virtual pins : 0
+Total memory bits : 632,232
+Embedded Multiplier 9-bit elements : 68
+Total PLLs : 1

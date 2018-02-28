@@ -1,0 +1,273 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C40 (0x020F40DD)" sof_file="" top_level_entity="Top_HD_LogoInsert">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="5"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130817"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2012/05/08 13:44:09  #0">
+      <clock name="Pclk_KeyVideo" polarity="posedge" tap_mode="probeonly"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="256" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="Pclk_Tx" tap_mode="classic" type="output pin"/>
+          <wire name="Rx_HVF_KeyVideo[0]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_HVF_KeyVideo[1]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_HVF_KeyVideo[2]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[0]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[1]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[2]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[3]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[4]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[5]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[6]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[7]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[8]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[9]" tap_mode="classic" type="input pin"/>
+          <wire name="Tx_Data[0]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[10]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[11]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[12]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[13]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[14]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[15]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[16]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[17]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[18]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[19]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[1]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[2]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[3]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[4]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[5]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[6]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[7]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[8]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[9]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[0]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[1]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[2]" tap_mode="classic" type="output pin"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="Pclk_Tx" tap_mode="classic" type="output pin"/>
+          <wire name="Rx_HVF_KeyVideo[0]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_HVF_KeyVideo[1]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_HVF_KeyVideo[2]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[0]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[1]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[2]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[3]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[4]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[5]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[6]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[7]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[8]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[9]" tap_mode="classic" type="input pin"/>
+          <wire name="Tx_Data[0]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[10]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[11]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[12]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[13]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[14]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[15]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[16]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[17]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[18]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[19]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[1]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[2]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[3]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[4]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[5]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[6]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[7]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[8]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[9]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[0]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[1]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[2]" tap_mode="classic" type="output pin"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="Pclk_Tx" tap_mode="classic" type="output pin"/>
+          <wire name="Rx_HVF_KeyVideo[0]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_HVF_KeyVideo[1]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_HVF_KeyVideo[2]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[0]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[1]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[2]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[3]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[4]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[5]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[6]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[7]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[8]" tap_mode="classic" type="input pin"/>
+          <wire name="Rx_KeyVideo[9]" tap_mode="classic" type="input pin"/>
+          <wire name="Tx_Data[0]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[10]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[11]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[12]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[13]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[14]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[15]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[16]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[17]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[18]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[19]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[1]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[2]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[3]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[4]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[5]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[6]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[7]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[8]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_Data[9]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[0]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[1]" tap_mode="classic" type="output pin"/>
+          <wire name="Tx_HVF[2]" tap_mode="classic" type="output pin"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="Rx_KeyVideo" order="lsb_to_msb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="Rx_KeyVideo[0]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[1]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[2]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[3]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[4]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[5]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[6]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[7]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[8]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[9]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Rx_HVF_KeyVideo[0]"/>
+          <net is_signal_inverted="no" name="Rx_HVF_KeyVideo[1]"/>
+          <net is_signal_inverted="no" name="Rx_HVF_KeyVideo[2]"/>
+          <bus is_signal_inverted="no" link="all" name="Tx_Data[0..9]" order="lsb_to_msb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Tx_Data[0]"/>
+            <net is_signal_inverted="no" name="Tx_Data[1]"/>
+            <net is_signal_inverted="no" name="Tx_Data[2]"/>
+            <net is_signal_inverted="no" name="Tx_Data[3]"/>
+            <net is_signal_inverted="no" name="Tx_Data[4]"/>
+            <net is_signal_inverted="no" name="Tx_Data[5]"/>
+            <net is_signal_inverted="no" name="Tx_Data[6]"/>
+            <net is_signal_inverted="no" name="Tx_Data[7]"/>
+            <net is_signal_inverted="no" name="Tx_Data[8]"/>
+            <net is_signal_inverted="no" name="Tx_Data[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Tx_Data[10..19]" order="lsb_to_msb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Tx_Data[10]"/>
+            <net is_signal_inverted="no" name="Tx_Data[11]"/>
+            <net is_signal_inverted="no" name="Tx_Data[12]"/>
+            <net is_signal_inverted="no" name="Tx_Data[13]"/>
+            <net is_signal_inverted="no" name="Tx_Data[14]"/>
+            <net is_signal_inverted="no" name="Tx_Data[15]"/>
+            <net is_signal_inverted="no" name="Tx_Data[16]"/>
+            <net is_signal_inverted="no" name="Tx_Data[17]"/>
+            <net is_signal_inverted="no" name="Tx_Data[18]"/>
+            <net is_signal_inverted="no" name="Tx_Data[19]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Pclk_Tx"/>
+          <net is_signal_inverted="no" name="Tx_HVF[0]"/>
+          <net is_signal_inverted="no" name="Tx_HVF[1]"/>
+          <net is_signal_inverted="no" name="Tx_HVF[2]"/>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="Rx_KeyVideo" order="lsb_to_msb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="Rx_KeyVideo[0]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[1]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[2]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[3]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[4]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[5]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[6]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[7]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[8]"/>
+            <net is_signal_inverted="no" name="Rx_KeyVideo[9]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Rx_HVF_KeyVideo[0]"/>
+          <net is_signal_inverted="no" name="Rx_HVF_KeyVideo[1]"/>
+          <net is_signal_inverted="no" name="Rx_HVF_KeyVideo[2]"/>
+          <bus is_signal_inverted="no" link="all" name="Tx_Data[0..9]" order="lsb_to_msb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Tx_Data[0]"/>
+            <net is_signal_inverted="no" name="Tx_Data[1]"/>
+            <net is_signal_inverted="no" name="Tx_Data[2]"/>
+            <net is_signal_inverted="no" name="Tx_Data[3]"/>
+            <net is_signal_inverted="no" name="Tx_Data[4]"/>
+            <net is_signal_inverted="no" name="Tx_Data[5]"/>
+            <net is_signal_inverted="no" name="Tx_Data[6]"/>
+            <net is_signal_inverted="no" name="Tx_Data[7]"/>
+            <net is_signal_inverted="no" name="Tx_Data[8]"/>
+            <net is_signal_inverted="no" name="Tx_Data[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Tx_Data[10..19]" order="lsb_to_msb" radix="hex" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="Tx_Data[10]"/>
+            <net is_signal_inverted="no" name="Tx_Data[11]"/>
+            <net is_signal_inverted="no" name="Tx_Data[12]"/>
+            <net is_signal_inverted="no" name="Tx_Data[13]"/>
+            <net is_signal_inverted="no" name="Tx_Data[14]"/>
+            <net is_signal_inverted="no" name="Tx_Data[15]"/>
+            <net is_signal_inverted="no" name="Tx_Data[16]"/>
+            <net is_signal_inverted="no" name="Tx_Data[17]"/>
+            <net is_signal_inverted="no" name="Tx_Data[18]"/>
+            <net is_signal_inverted="no" name="Tx_Data[19]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Pclk_Tx"/>
+          <net is_signal_inverted="no" name="Tx_HVF[0]"/>
+          <net is_signal_inverted="no" name="Tx_HVF[1]"/>
+          <net is_signal_inverted="no" name="Tx_HVF[2]"/>
+        </setup_view>
+      </presentation>
+      <trigger attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2012/05/08 13:44:09  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'Rx_KeyVideo[0]' == low &amp;&amp; 'Rx_KeyVideo[1]' == low &amp;&amp; 'Rx_KeyVideo[2]' == low &amp;&amp; 'Rx_KeyVideo[3]' == low &amp;&amp; 'Rx_KeyVideo[4]' == low &amp;&amp; 'Rx_KeyVideo[5]' == low &amp;&amp; 'Rx_KeyVideo[6]' == low &amp;&amp; 'Rx_KeyVideo[7]' == low &amp;&amp; 'Rx_KeyVideo[8]' == low &amp;&amp; 'Rx_KeyVideo[9]' == low
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>0000000000000000000000000000000000000
+            <pwr_up_transitional>0000000000000000000000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1366,707,398,124,356,50,124,0,1"/>
+  </global_info>
+</session>

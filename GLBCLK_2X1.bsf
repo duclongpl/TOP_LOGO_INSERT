@@ -1,0 +1,78 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 200 128)
+	(text "GLBCLK_2X1" (rect 4 -16 97 0)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(port
+		(pt 0 104)
+		(input)
+		(text "clkselect" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "clkselect" (rect 4 91 43 104)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 84 104)(line_width 1))
+	)
+	(port
+		(pt 120 0)
+		(input)
+		(text "ena" (rect 0 0 14 21)(font "Arial" (font_size 8))(vertical))
+		(text "ena" (rect 121 3 134 21)(font "Arial" (font_size 8))(vertical))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "inclk1x" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "inclk1x" (rect 4 35 36 48)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 72 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "inclk0x" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "inclk0x" (rect 4 51 36 64)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 72 64)(line_width 1))
+	)
+	(port
+		(pt 200 56)
+		(output)
+		(text "outclk" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "outclk" (rect 169 43 196 56)(font "Arial" (font_size 8)))
+		(line (pt 200 56)(pt 131 56)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 114 50 126 62)(font "Arial" ))
+		(text "Global Clock" (rect 144 117 197 129)(font "Arial" ))
+		(line (pt 72 24)(pt 72 88)(line_width 1))
+		(line (pt 72 24)(pt 96 32)(line_width 1))
+		(line (pt 72 88)(pt 96 80)(line_width 1))
+		(line (pt 96 32)(pt 96 80)(line_width 1))
+		(line (pt 96 56)(pt 112 56)(line_width 1))
+		(line (pt 84 84)(pt 84 104)(line_width 1))
+		(line (pt 112 41)(pt 112 71)(line_width 1))
+		(line (pt 112 41)(pt 132 57)(line_width 1))
+		(line (pt 112 71)(pt 132 55)(line_width 1))
+		(line (pt 0 0)(pt 201 0)(line_width 1))
+		(line (pt 201 0)(pt 201 129)(line_width 1))
+		(line (pt 0 129)(pt 201 129)(line_width 1))
+		(line (pt 0 0)(pt 0 129)(line_width 1))
+		(line (pt 120 0)(pt 120 50)(line_width 1))
+	)
+)

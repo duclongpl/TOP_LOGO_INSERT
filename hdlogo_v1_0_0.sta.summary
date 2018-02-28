@@ -1,0 +1,1721 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 0.694
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 1.083
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 1.089
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 1.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 1.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'tx_video_clk'
+Slack : 1.525
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.573
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.993
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'keyvideo_clk'
+Slack : 2.186
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.470
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 2.644
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 2.650
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.826
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'keyanpha_clk'
+Slack : 3.148
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'bkgd_clk'
+Slack : 4.145
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ref_clk'
+Slack : 4.145
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'mcu_wr'
+Slack : 7.888
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 8.110
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'aclock'
+Slack : 167.414
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'wclock'
+Slack : 10396.801
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ref_clk'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'bkgd_clk'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mcu_wr'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'aclock'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'keyvideo_clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'keyanpha_clk'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'wclock'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.614
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 1.121
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 1.136
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 1.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 1.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 1.519
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 1.582
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 1.597
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tx_video_clk'
+Slack : 7.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.627
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.930
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.788
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 4.461
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 8.648
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 22.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 1.025
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.035
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.528
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.471
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_rise'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_rise'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_mem_clk[0]_mimic_launch_clock'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'keyanpha_clk'
+Slack : 2.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'keyvideo_clk'
+Slack : 2.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.714
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.717
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_20'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_21'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_22'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_23'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_24'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_25'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_26'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_27'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_28'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_29'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_31'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_32'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_33'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_34'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_35'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_36'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_37'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_39'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_40'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_55'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_56'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_57'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_58'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_59'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_60'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_61'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_62'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_63'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_64'
+Slack : 2.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_38'
+Slack : 2.724
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_19'
+Slack : 2.725
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_30'
+Slack : 2.725
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_capture'
+Slack : 2.744
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 2.744
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_10'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_11'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_12'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_13'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_14'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_15'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_16'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_17'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_2'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_3'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_4'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_43'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_44'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_45'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_46'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_47'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_48'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_49'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_5'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_50'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_51'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_52'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_53'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_54'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_6'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_7'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_9'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_18'
+Slack : 2.775
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_41'
+Slack : 2.775
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_42'
+Slack : 2.775
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_1'
+Slack : 2.776
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_8'
+Slack : 2.776
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_source'
+Slack : 3.876
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.714
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mcu_wr'
+Slack : 5.847
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ref_clk'
+Slack : 6.011
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'bkgd_clk'
+Slack : 6.071
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 10.947
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'aclock'
+Slack : 175.659
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'wclock'
+Slack : 10416.027
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 0.746
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 1.117
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 1.124
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 1.456
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 1.463
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.918
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.106
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'tx_video_clk'
+Slack : 2.201
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'keyvideo_clk'
+Slack : 2.666
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.682
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 2.834
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 2.841
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.056
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'keyanpha_clk'
+Slack : 3.536
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.665
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'bkgd_clk'
+Slack : 4.847
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ref_clk'
+Slack : 4.847
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'mcu_wr'
+Slack : 8.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 8.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'aclock'
+Slack : 168.155
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'wclock'
+Slack : 10398.698
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ref_clk'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mcu_wr'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'bkgd_clk'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'keyvideo_clk'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'wclock'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'aclock'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'keyanpha_clk'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.558
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 1.152
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 1.164
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 1.410
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 1.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 1.493
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 1.514
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 1.526
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tx_video_clk'
+Slack : 6.988
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.872
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.143
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.949
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 4.620
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 8.888
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 22.473
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.921
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.932
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.942
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.943
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.377
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.207
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.351
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_rise'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_rise'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_mem_clk[0]_mimic_launch_clock'
+Slack : 2.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'keyanpha_clk'
+Slack : 2.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'keyvideo_clk'
+Slack : 2.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.717
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.718
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_19'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_20'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_21'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_22'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_23'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_24'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_25'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_26'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_27'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_28'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_29'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_30'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_31'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_32'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_33'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_34'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_35'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_36'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_37'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_39'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_40'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_55'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_56'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_57'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_58'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_59'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_60'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_61'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_62'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_63'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_64'
+Slack : 2.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_38'
+Slack : 2.720
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_capture'
+Slack : 2.742
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 2.742
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_1'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_10'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_11'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_12'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_13'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_14'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_15'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_16'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_17'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_18'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_2'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_3'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_4'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_41'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_43'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_44'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_45'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_46'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_47'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_48'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_49'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_5'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_50'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_51'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_52'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_53'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_54'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_6'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_7'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_8'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_9'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_42'
+Slack : 2.764
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_source'
+Slack : 3.845
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.716
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mcu_wr'
+Slack : 5.821
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'bkgd_clk'
+Slack : 5.976
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ref_clk'
+Slack : 6.049
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 10.931
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'aclock'
+Slack : 175.638
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'wclock'
+Slack : 10416.112
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 1.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 1.484
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 1.507
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 1.549
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.481
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 3.232
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 3.274
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'keyvideo_clk'
+Slack : 3.418
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.466
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.694
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'keyanpha_clk'
+Slack : 3.984
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.406
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 4.733
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'tx_video_clk'
+Slack : 6.687
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'bkgd_clk'
+Slack : 8.417
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ref_clk'
+Slack : 8.417
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 9.471
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'mcu_wr'
+Slack : 10.255
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'aclock'
+Slack : 171.946
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'wclock'
+Slack : 10405.999
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ref_clk'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mcu_wr'
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'bkgd_clk'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'aclock'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'keyvideo_clk'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'keyanpha_clk'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'wclock'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.262
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 0.835
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 1.203
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 1.253
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 1.277
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 1.327
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 1.500
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 1.550
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tx_video_clk'
+Slack : 3.991
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.675
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 4.347
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.872
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 5.227
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 10.212
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 23.139
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.480
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.480
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.704
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 1.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'keyanpha_clk'
+Slack : 2.500
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'keyvideo_clk'
+Slack : 2.500
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_fall'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_ac_rise'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDQSS'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_n_mem_clk_n[0]_tDSS'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_fall'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_ac_rise'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDQSS'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ck_p_mem_clk[0]_tDSS'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_mem_clk[0]_mimic_launch_clock'
+Slack : 2.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.754
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_1'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_10'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_11'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_12'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_13'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_14'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_15'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_16'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_17'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_18'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_2'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_3'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_4'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_41'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_42'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_43'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_44'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_45'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_46'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_47'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_48'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_49'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_5'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_50'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_51'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_52'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_53'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_54'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_6'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_7'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_8'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_9'
+Slack : 2.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_capture'
+Slack : 2.778
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_ddr_mimic'
+Slack : 2.778
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.780
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.780
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_19'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_20'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_21'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_22'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_23'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_24'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_25'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_26'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_27'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_28'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_29'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_30'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_31'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_32'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_33'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_34'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_35'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_36'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_37'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_38'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_39'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_40'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_55'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_56'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_57'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_58'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_59'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_60'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_61'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_62'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_63'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_dq_64'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_source'
+Slack : 3.583
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.752
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'bkgd_clk'
+Slack : 5.971
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mcu_wr'
+Slack : 5.998
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ref_clk'
+Slack : 6.231
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DDR2_IF_inst|DDR2_IF_controller_phy_inst|DDR2_IF_phy_inst|DDR2_IF_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 10.954
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'aclock'
+Slack : 175.461
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'wclock'
+Slack : 10415.672
+TNS   : 0.000
+
+------------------------------------------------------------
